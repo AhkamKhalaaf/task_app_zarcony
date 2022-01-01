@@ -1,0 +1,32 @@
+{
+    "addresses": [
+        {
+            "name": "Home Address",
+            "region": "Mastiff St. No:2",
+            "street": "Street x12",
+            "color": "#E3DDD6"
+
+        },
+        {
+            "name": "Office Address",
+            "region": "Axis Istanbul, B2 Blok",
+            "street": "Floor 2,Office 87",
+            "color": "#E3DDD6"
+
+        }
+        ,{
+            "name": "Other Address",
+            "region": "Mastiff St. No:2",
+            "street": "Floor 2,Office",
+            "color": "#E3DDD6"
+
+        },
+        {
+            "name": "Town Address",
+            "region": "Mastiff St. No:5",
+            "street": "Street x5",
+            "color": "#E3DDD6"
+
+        }
+    ]
+}

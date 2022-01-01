@@ -1,0 +1,49 @@
+{
+    "offers": [
+        {
+            "name": "Mega",
+            "description": "WHOPPER",
+            "until": "* Available until 24 December 2020",
+            "newPrice": "30",
+            "oldPrice": "35",
+            "color": "#FBEDD8"
+
+        },
+        {
+            "name": "Mega1",
+            "description": "WHOPPER1",
+            "until": "* Available until 6 november 2020",
+            "newPrice": "18",
+            "oldPrice": "26",
+            "color": "#CCB8FF"
+
+        }
+        ,{
+            "name": "Mega 2",
+            "description": "WHOPPER2",
+            "until": "* Available until 5 march 2020",
+            "newPrice": "15",
+            "oldPrice": "35",
+            "color": "#FF9DC2"
+
+        },
+        {   "name": "Mega 3",
+            "description": "WHOPPER3",
+            "until": "* Available until 12 jule 2020",
+            "newPrice": "10",
+            "oldPrice": "16",
+            "color": "#FBEDD8"
+
+        },
+        {
+            "name": "Mega 4",
+            "description": "WHOPPER 4",
+            "until": "* Available until 24 December 2020",
+            "newPrice": "12",
+            "oldPrice": "14",
+            "color": "#B0EAFD"
+
+        }
+
+    ]
+}

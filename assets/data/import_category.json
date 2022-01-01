@@ -1,0 +1,30 @@
+{
+    "categories": [
+        {
+            "name": "Steak",
+            "color": "#F9BDAD"
+
+        },
+        {
+            "name": "Vegetables",
+            "color": "#FAD96D"
+
+        }
+        ,{
+            "name": "Beverages",
+            "color": "#CCB8FF"
+
+        },
+        {
+            "name": "Fish",
+            "color": "#B0EAFD"
+
+        },
+        {
+            "name": "Juice ",
+            "color": "#FF9DC2"
+
+        }
+
+    ]
+}

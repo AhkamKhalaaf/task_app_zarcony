@@ -1,0 +1,49 @@
+{
+    "deals": [
+        {
+            "name": "Summer Sun Ice Cream Pack",
+            "pieces": "Pieces 5",
+            "place": "15 Minutes Away",
+            "newPrice": "12",
+            "oldPrice": "14",
+            "color": "#FBEDD8"
+
+        },
+        {
+            "name": "Summer Sun  ",
+            "pieces": "Pieces 7",
+            "place": "15 Minutes Away",
+            "newPrice": "8",
+            "oldPrice": "12",
+            "color": "#CCB8FF"
+
+        }
+        ,{
+            "name": "winter cold Ice chanteh Pack",
+            "pieces": "Pieces 50",
+            "place": "8 Minutes Away",
+            "newPrice": "60",
+            "oldPrice": "67",
+            "color": "#FF9DC2"
+
+        },
+        {     "name": "Steak",
+            "pieces": "Pieces 8",
+            "place": "12 Minutes Away",
+            "newPrice": "30",
+            "oldPrice": "34",
+            "color": "#FBEDD8"
+
+        },
+        {
+            "name": "Pack Summer Sun Ice Cream ",
+            "pieces": "Pieces 2",
+            "place": "15 Minutes Away",
+            "newPrice": "40",
+            "oldPrice": "54",
+            "color": "#B0EAFD"
+
+        }
+
+    ]
+}
