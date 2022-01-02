@@ -142,9 +142,8 @@ class _HomeUiState extends State<EntryPointUi> {
                     context.read(tabsController).screenHomeTabSwitch(2);
                   },
                   child: Container(
-                    width: 60.0,
-                    height: 60.0,
-                    padding:const EdgeInsets.all(5.0),
+
+                    padding:const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                         color: appConfig.colorMain, shape: BoxShape.circle),
                     child: Column(

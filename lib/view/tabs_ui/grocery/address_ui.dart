@@ -15,9 +15,9 @@ class AddressUi extends StatelessWidget {
         itemCount: items.length,
         itemBuilder: (context, index) {
           return Container(
-            padding: const EdgeInsets.all(5.0),
-            margin: const EdgeInsets.only(right: 15.0),
-            width: MediaQuery.of(context).size.width * 0.45 - 7.5,
+            padding:   const EdgeInsets.all(5.0),
+            margin: const EdgeInsets.only(right: 10.0),
+            width: MediaQuery.of(context).size.width * 0.45,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15.0),
                 border: Border.all(

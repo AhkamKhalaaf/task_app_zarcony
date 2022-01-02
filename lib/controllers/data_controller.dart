@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:taskapp/models/Deal_of_days_model.dart';
 import 'package:taskapp/models/address_model.dart';
 import 'package:taskapp/models/category_model.dart';
@@ -68,24 +67,8 @@ class DataController extends ChangeNotifier {
 
   /////cart   functions start
   addDealToCart(Deal deal) {
-    if (deal.isAddedToCArt == true) {
-      Fluttertoast.showToast(
-          msg: "the deal is already added",
-          toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.BOTTOM,
-          timeInSecForIosWeb: 1,
-          backgroundColor: Colors.green,
-          textColor: Colors.white,
-          fontSize: 16.0);
-    } else {
-      Fluttertoast.showToast(
-          msg: "the deal is added successfully",
-          toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.BOTTOM,
-          timeInSecForIosWeb: 1,
-          backgroundColor: Colors.green,
-          textColor: Colors.white,
-          fontSize: 16.0);
+    if (deal.isAddedToCArt != true) {
+
       deal.isAddedToCArt = true;
       fetchCartItems();
       getTotalOfDeals();
